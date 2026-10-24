@@ -1,0 +1,24 @@
+{
+  "model": "RandomForestRegressor(n_estimators=100, max_depth=12)",
+  "mae": 0.074,
+  "rmse": 0.1262,
+  "r2": 0.9832,
+  "baseline_mae": 0.4514,
+  "train_rows": 10365,
+  "test_rows": 2592,
+  "test_from": "2026-08-22",
+  "mae_per_home": {
+    "home-101": 0.097,
+    "home-102": 0.088,
+    "home-103": 0.038
+  },
+  "feature_importance": {
+    "hour": 0.08,
+    "day_of_week": 0.003,
+    "is_weekend": 0.002,
+    "temperature": 0.216,
+    "humidity": 0.002,
+    "occupancy": 0.247,
+    "prev_kwh": 0.451
+  }
+}

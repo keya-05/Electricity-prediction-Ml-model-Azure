@@ -1,0 +1,26 @@
+{
+  "model": "DecisionTreeClassifier(max_depth=4)",
+  "accuracy": 0.75,
+  "train_rows": 96,
+  "test_rows": 24,
+  "labels": [
+    "No Rain",
+    "Rain"
+  ],
+  "confusion_matrix": [
+    [
+      11,
+      2
+    ],
+    [
+      4,
+      7
+    ]
+  ],
+  "feature_importance": {
+    "temperature": 0.154,
+    "humidity": 0.783,
+    "pressure": 0.062,
+    "wind_speed": 0.0
+  }
+}

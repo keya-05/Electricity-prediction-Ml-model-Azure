@@ -1,0 +1,5 @@
+-r requirements.txt
+azure-ai-ml
+azure-identity
+azure-iot-device
+azure-eventhub

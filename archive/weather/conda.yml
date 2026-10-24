@@ -1,0 +1,12 @@
+name: weather-ml-environment
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      # same versions as the edge module, so the pickled model loads cleanly there
+      - pandas==3.1.0
+      - numpy==2.5.4
+      - scikit-learn==1.9.1
+      - joblib==1.6.0

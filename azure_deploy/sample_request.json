@@ -1,0 +1,6 @@
+{
+  "data": [
+    {"device_id": "home-101", "timestamp": "2026-10-21T19:00", "temperature": 31.0, "humidity": 62, "occupancy": 4, "prev_kwh": 2.4},
+    {"device_id": "home-103", "timestamp": "2026-10-21T11:00", "temperature": 29.5, "humidity": 66, "occupancy": 0, "prev_kwh": 0.16}
+  ]
+}
